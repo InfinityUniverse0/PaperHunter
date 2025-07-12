@@ -14,13 +14,13 @@
  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀ 
 ```
 
-> A powerful crawler & filtering tool for academic papers from top-tier computer science conferences via [DBLP](https://dblp.org).
+> PaperHunter is a robust academic paper discovery and precision filtering tool that fetches research from over 350 top computer science conferences via [DBLP](https://dblp.org).
 
 ---
 
 ## ✨ Features
 
-- 🔍 **Conference Coverage**: Supports 200+ CS conferences across AI, ML, Systems, Networking, Security, Databases...
+- 🔍 **Conference Coverage**: Supports 350+ CS conferences across AI, ML, Systems, Networking, Security, Databases...
 - 🧠 **Advanced Filtering**: Use logical `AND`/`OR` with keywords for precise search
 - 📆 **Multi-Year Query**: Easily search across a year range
 - 🔁 **Robust Crawling**: Retry & delay mechanisms to respect DBLP
