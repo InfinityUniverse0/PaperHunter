@@ -38,7 +38,7 @@
 
 👉 See full list of supported conferences:
 ```bash
-python main.py conference
+paperhunter conference
 ```
 This will output a list of supported conferences, showing their abbreviation (used in `-con`) and full name.
 
@@ -76,7 +76,7 @@ chmod +x install.sh
 ### ✅ Advanced Mode (Recommended)
 
 ```bash
-python3 main.py -con <conf1> [<conf2> ...] -year <year>|<start>-<end> [-kw <kw1> ...] [-kw_all <kw1> ...]
+paperhunter -con <conf1> [<conf2> ...] -year <year>|<start>-<end> [-kw <kw1> ...] [-kw_all <kw1> ...]
 ```
 
 | Flag      | Description                                      |
