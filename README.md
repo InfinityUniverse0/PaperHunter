@@ -33,7 +33,7 @@
 - **Artificial Intelligence**: AAAI, NeurIPS, ICML, CVPR, ICCV, etc.
 - **Systems & Architecture**: ASPLOS, ISCA, MICRO, OSDI, SOSP, etc.
 - **Networking**: SIGCOMM, NSDI, INFOCOM, MobiCom, etc.
-- **Security & Cryptography**: CCS, USENIX Security, NDSS, Eurocrypt, etc.
+- **Security & Cryptography**: CCS, USENIX Security, NDSS, S&P, Eurocrypt, etc.
 - **Databases**: SIGMOD, VLDB, ICDE, KDD, etc.
 
 👉 See full list of supported conferences:
