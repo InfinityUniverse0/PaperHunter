@@ -60,18 +60,14 @@ git clone https://github.com/yourusername/paperhunter.git
 cd paperhunter
 ```
 
-#### Install dependencies
+#### Install
 
 ```bash
-pip install -r requirements.txt
+chmod +x install.sh
+./install.sh
 ```
 
-#### `requirements.txt` content
 
-```text
-requests>=2.25.1
-beautifulsoup4>=4.9.3
-```
 
 ---
 
