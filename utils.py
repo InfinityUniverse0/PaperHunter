@@ -36,11 +36,11 @@ def print_help():
 def list_conferences():
     """List all supported conferences with their abbreviations and full names"""
     print("=== Supported Conferences ===")
-    print("{:<15} {:<60} {:<15}".format("Abbreviation", "Full Name", "DBLP Key"))
+    print("{:<20} {:<100}".format("Abbreviation", "Full Name"))
     print("-" * 90)
     
     for short, (full, key) in sorted(KNOWN_CONFS.items()):
-        print("{:<15} {:<60} {:<15}".format(short, full, key))
+        print("{:<20} {:<100}".format(short, full))
     
     print(f"\nTotal: {len(KNOWN_CONFS)} conferences")
     sys.exit(0)
