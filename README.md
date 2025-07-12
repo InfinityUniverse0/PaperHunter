@@ -20,7 +20,7 @@
 
 ## ✨ Features
 
-- 🔍 **Conference Coverage**: Supports 350+ CS conferences across AI, ML, Systems, Networking, Security, Databases...
+- 🔍 **Conference Coverage**: Supports 300+ CS conferences across AI, ML, Systems, Networking, Security, Databases...
 - 🧠 **Advanced Filtering**: Use logical `AND`/`OR` with keywords for precise search
 - 📆 **Multi-Year Query**: Easily search across a year range
 - 🔁 **Robust Crawling**: Retry & delay mechanisms to respect DBLP
