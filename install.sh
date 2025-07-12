@@ -48,7 +48,7 @@ export PATH="$HOME/.local/bin:$PATH"
 if command -v paperhunter >/dev/null 2>&1; then
   echo "✅ Installation complete! You can now run 'paperhunter' command."
 
-  # 打印字符画
+  # print hunter
   cat << 'EOF'
 
  ▄         ▄  ▄         ▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ 
