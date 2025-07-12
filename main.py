@@ -31,6 +31,7 @@ COMMON_TO_KNOWN = {
     "fg": "fgr",
     "ijcb": "icb",
     "iss": "tabletop",
+    "iccv": "iccvw",
     "ubicomp": "huc"
 }
 
