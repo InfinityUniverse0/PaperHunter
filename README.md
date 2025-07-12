@@ -14,7 +14,7 @@
  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀ 
 ```
 
-> PaperHunter is a robust academic paper discovery and precision filtering tool that fetches research from over 350 top computer science conferences via [DBLP](https://dblp.org).
+> PaperHunter is a robust academic paper discovery and precision filtering tool that fetches research from over 300 top computer science conferences via [DBLP](https://dblp.org).
 
 ---
 
