@@ -80,7 +80,7 @@ beautifulsoup4>=4.9.3
 ### ✅ Advanced Mode (Recommended)
 
 ```bash
-python main.py -con <conf1> [<conf2> ...] -year <year>|<start>-<end> [-kw <kw1> ...] [-kw_all <kw1> ...]
+python3 main.py -con <conf1> [<conf2> ...] -year <year>|<start>-<end> [-kw <kw1> ...] [-kw_all <kw1> ...]
 ```
 
 | Flag      | Description                                      |
@@ -90,38 +90,45 @@ python main.py -con <conf1> [<conf2> ...] -year <year>|<start>-<end> [-kw <kw1> 
 | `-kw`     | At least one keyword must appear (OR)            |
 | `-kw_all` | All keywords must appear (AND)                   |
 
-#### Examples
+### 🔍 Examples: Searching Cybersecurity Papers from NDSS, S&P, USENIX Security and CCS
 
-Search for "object detection" papers in CVPR & ICCV (2020–2023):
-
-```bash
-python main.py -con cvpr iccv -year 2020-2023 -kw "object detection"
-```
-
-Find NeurIPS 2022 papers with "deep learning" AND at least one of ["object detection", "image segmentation"]:
+#### 1. Search for "vulnerability" or "malware" papers in **NDSS** and **USENIX Security** (2021–2024):
 
 ```bash
-python main.py -con neurips -year 2022 -kw "object detection" "image segmentation" -kw_all "deep learning"
+python3 main.py -con ndss security -year 2021-2024 -kw "vulnerability" "malware"
 ```
 
-Search all conferences for "quantum computing" papers (2021–2023):
+#### 2. Search **IEEE S&P (Oakland)** 2023 papers that **must include** "attack" and at least one of ["IoT", "firmware"]:
 
 ```bash
-python main.py -con all -year 2021-2023 -kw "quantum computing"
+python3 main.py -con sp -year 2023 -kw "IoT" "firmware" -kw_all "attack"
 ```
+
+#### 3. Find papers in **CCS** (ACM Conference on Computer and Communications Security) from 2020 to 2022 related to "side channel":
+
+```bash
+python3 main.py -con ccs -year 2020-2022 -kw "side channel"
+```
+
+#### 4. Search all supported conferences for "DNS hijacking" in the year 2024:
+
+```bash
+python3 main.py -con all -year 2024 -kw "DNS hijacking"
+```
+
 
 ---
 
 ### 🕹 Legacy Mode (Simple Syntax)
 
 ```bash
-python main.py <conf1> [<conf2> ...] <year>|<start>-<end> <kw1> [<kw2> ...]
+python3 main.py <conf1> [<conf2> ...] <year>|<start>-<end> <kw1> [<kw2> ...]
 ```
 
 #### Example
 
 ```bash
-python main.py sigmod vldb 2022-2023 "graph database" "query optimization"
+python3 main.py sigmod vldb 2022-2023 "graph database" "query optimization"
 ```
 
 ---
@@ -130,12 +137,12 @@ python main.py sigmod vldb 2022-2023 "graph database" "query optimization"
 
 Show help:
 ```bash
-python main.py help
+python3 main.py help
 ```
 
 List all supported conferences:
 ```bash
-python main.py conference
+python3 main.py conference
 ```
 
 ---
