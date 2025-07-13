@@ -57,7 +57,7 @@ This will output a list of supported conferences, showing their abbreviation (us
 
 ```bash
 git clone https://github.com/yourusername/paperhunter.git
-cd paperhunter
+cd PaperHunter
 ```
 
 #### Install
