@@ -115,19 +115,6 @@ paperhunter -con all -year 2024 -kw "DNS hijacking"
 
 ---
 
-### 🕹 Legacy Mode (Simple Syntax)
-
-```bash
-paperhunter <conf1> [<conf2> ...] <year>|<start>-<end> <kw1> [<kw2> ...]
-```
-
-#### Example
-
-```bash
-paperhunter sigmod vldb 2022-2023 "graph database" "query optimization"
-```
-
----
 
 ### 🛠 Special Commands
 
